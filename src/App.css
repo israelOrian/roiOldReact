@@ -1,0 +1,17 @@
+.img {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.accordion-body {
+    background: rgb(255, 228, 255);
+}
