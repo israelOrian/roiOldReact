@@ -15,3 +15,9 @@ img:hover {
 .accordion-body {
     background: rgb(255, 228, 255);
 }
+
+.link {}
+
+.active {
+    color: rgb(255, 0, 0);
+}

@@ -8,8 +8,7 @@ const Form = () => {
         event.preventDefault();
         console.log('Form submitted!');
         nav("/ThenkYou");
-
-
+        alert("the form send")
     }
 
     return (
@@ -18,15 +17,15 @@ const Form = () => {
             <form onSubmit={eventSub} className="col-6 mx-auto">
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email address</label>
-                    <input type="email" className="form-control" id="email" placeholder="name@example.com" />
+                    <input type="email" className="form-control input-group-text" id="email" placeholder="name@example.com" />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="name" className="form-label">Name</label>
-                    <input type="text" className="form-control" id="name" placeholder="first and last name" />
+                    <input type="text" className="form-control input-group-text" id="name" placeholder="first and last name" />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="phone" className="form-label">Phone</label>
-                    <input type="tel" className="form-control" id="phone" placeholder="Ten digits" required />
+                    <input type="tel" className="form-control input-group-text" id="phone" placeholder="Ten digits" required />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="comments" className="form-label">Comments or notes</label>

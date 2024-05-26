@@ -3,6 +3,7 @@ import './App.css'
 import HomePage from '../pages/HomePage'
 import About from '../pages/About'
 import CotactUs from '../pages/CotactUs'
+import AnimalsFS from '../pages/AnimalsFS'
 import Media from '../pages/Media'
 import QuestionsAnswers from '../pages/QuestionsAnswers'
 import ThenkYou from '../pages/ThenkYou'
@@ -23,6 +24,7 @@ function App() {
           <Route path='/QuestionsAnswers' element={<QuestionsAnswers />} />
           <Route path='/ThenkYou' element={<ThenkYou />} />
           <Route path='/ZooSearch' element={<ZooSearch />} />
+          <Route path='/AnimalsFS' element={<AnimalsFS />} />
 
 
         </Routes>
